@@ -1,10 +1,11 @@
-body{
-    color: white;
+body {
+    /* color: white; */
     background: url(img/master1.jpg);
     height: 800px;
-   
+
 }
-.head{
+
+.head {
     color: black;
     border: 0px solid black;
     background-color: #31dada;
@@ -15,27 +16,27 @@ body{
     /* padding: 0px; */
 }
 
-.logo{
+.logo {
+    color: white;
+    border: 2px solid black;
+    background-color: black;
     text-align: center;
     line-height: 24px;
     font-size: 30px;
     text-decoration: underline white;
-    
-    
+
+
 }
 
-.container{
+.container {}
 
-    
-}
-
-.left{
+.left {
     /* border: 2px solid wheat; */
     display: inline-block;
 
 }
 
-.right{
+.right {
     /* border: 2px solid wheat; */
     position: absolute;
 
@@ -43,18 +44,18 @@ body{
     display: inline-block;
 }
 
-.navbar{
+.navbar {
 
     text-decoration: none;
     display: inline-block;
 }
 
-.navbar li{
+.navbar li {
     text-decoration: none;
     display: inline-block;
 }
 
-.navbar li a{
+.navbar li a {
     text-decoration: none;
     display: inline-block;
     color: white;
@@ -62,7 +63,8 @@ body{
     margin: 16px;
 }
 
-.navbar li a:hover , .navbar li a.active{
+.navbar li a:hover,
+.navbar li a.active {
     color: gray;
     background-color: black;
     border: 2px solid black;
@@ -70,6 +72,47 @@ body{
     text-decoration: underline;
 }
 
-.container{
-    border: 2px solid rgb(12, 240, 191);
+.container {
+    text-align: center;
+    border: 5px solid rgb(12, 240, 191);
+    border-radius: 10px;
+    display: inline-block;
+    padding: 1px;
+    align-items: center;
+
+    margin: 87px 492px;
+    width: 34%;
 }
+
+.container input {
+    text-align: center;
+    font-size: 25px;
+    margin: 7px;
+    padding: 4px;
+
+    display: inline-block;
+    border: 2px solid orange;
+
+
+}
+
+.textarea {
+  border: 2px solid black;
+  background-color: black;
+    font-size: 20px ; 
+    /* font-weight: bold;  */
+    color: white;
+
+}
+h3{
+    color: white;
+border: 2px solid black;
+background-color: black;
+}
+
+.gender{
+    color: white;
+    border: 2px solid black;
+    background-color: black;
+}
+

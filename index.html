@@ -58,6 +58,10 @@
     </header>
 
     <div class="container">
+        <form action="noaction.php">
+
+
+        <h3 class="h3">Please Fill The Form Your Each Suggestion is Valuable For Us</h3>
 
         <label for="name"></label>
         <input type="text" name="user_name" id="name" placeholder="Enter your name:-">
@@ -77,15 +81,21 @@
 
 
         <br>
-        <label for="gender">Gender:- Male</label>
-        <input type="radio" name="user_gender" id="gender"><label for="gender"> Female</label>
-        <input type="radio" name="user_gender" id="gender">
-
+    
+        <label class="textarea" for="feed" >Enter Your Suggestion to Preserve Wildlife:-</label>
         <br>
-        <textarea name="feedback" id="feed" cols="30" rows="10">enter Your Suggestion to Preserve Wildlife</textarea>
+        <textarea name="feedback" id="feed" cols="40" rows="10" placeholder="Write here --->"></textarea>
+        <br>
+
+        <label class="gender" for="gender">Gender:- Male</label>
+        <input type="radio" name="user_gender" id="gender">
+        <label class="gender" for="gender">Female</label>
+        <input type="radio" name="user_gender" id="gender">
+        
+        <br>
 
 
-
+    </form>
 
     </div>
 
