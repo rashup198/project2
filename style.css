@@ -89,11 +89,8 @@ body {
     font-size: 25px;
     margin: 7px;
     padding: 4px;
-
     display: inline-block;
     border: 2px solid orange;
-
-
 }
 
 .textarea {
@@ -116,3 +113,9 @@ background-color: black;
     background-color: black;
 }
 
+
+.foot{
+    color: white;
+
+    border:  2px solid white;
+}
